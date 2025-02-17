@@ -1,0 +1,22 @@
+
+.personal{
+    margin-top: 120px;
+    display: grid;
+    border-top: 2px solid rgb(17,17 17);
+    border-bottom: 2px solid rgb(17,17 17);
+    grid-template-columns: repeat(2,lfr);
+    column-gap: 20px;
+    row-gap: 10px;
+    padding: 20px;
+}
+  
+.div_com_botão{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(15, 1, 1);
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+    border-radius: 15px;
+}
