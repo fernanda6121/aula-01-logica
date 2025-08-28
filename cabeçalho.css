@@ -1,0 +1,25 @@
+.cabeçalho {
+    background: linear-gradient(rgba(100,149,237 0.5), rgba(100,149,237,0.5)),
+                url("../imagens/cozinha.jpd"); /*separar gradiente e imagem de fundo*/
+    background-size: cover; /* para cobrir toda a area do ca
+    background-position: center; /* centraliza a imagem de fundo */
+    width:100%;
+    height:300px; /* aumentei a altura para tornar o cabeçalho*/
+    color: #000000; /* cor do texto */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-direction: center;
+    align-items: center;
+    padding: 20px; 
+}
+
+.titulo{
+   font-size:48px;
+margin-bottom: 10px;/* Espaço entre o titulo e subtitulo*/
+}
+
+    .subtitulo{
+  font-size: 24px;
+  margin-bottom: 20px; /* Espaço entre o subtitulo e o botão*/
+}
